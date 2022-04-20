@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 /* NAVBAR */
 nav ul li a{
     color: white !important;
@@ -18,5 +22,56 @@ nav ul li a:hover{
 
     nav ul li:hover{
         background-color: #27292c;
+    }
+  }
+
+  /* about */
+  #about{
+      scroll-margin-top: 115px;
+  }
+
+  /* CAROUSEL SECTION */
+
+.carouselDark{
+    background-color: #fff !important;
+}
+
+.ak-47{
+    transform: scale(0.8);
+    margin-top: -10px !important;
+}
+
+.ak-47-caption{
+    margin-top: 10px !important;
+}
+
+.shotgun{
+    margin-top: 18px;
+    margin-bottom: 180px;
+    transform: rotate(-10deg) scale(0.8);
+}
+
+.glock{
+    transform: scale(0.7);
+    margin-top: -11px !important;
+    margin-bottom: 50px !important;
+}
+
+.glock-caption{
+    margin-bottom: -10px !important;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .ak-47{
+        margin-bottom: 16px;
+    }
+
+    .shotgun{
+        margin-bottom: 104px;
+    }
+
+    .glock{
+        margin-top: -32px !important;
     }
   }
