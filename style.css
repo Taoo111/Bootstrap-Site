@@ -89,3 +89,12 @@ nav ul li a:hover{
         margin-top: -32px !important;
     }
   }
+
+/* CARDS SECTION */
+.most-popular{
+    background: #000;
+}
+
+#offers .row{
+    min-height: 95vh;
+}
